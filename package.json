@@ -1,6 +1,6 @@
 {
   "name": "passport-wechat-public",
-  "version": "0.0.1",
+  "version": "0.0.22",
   "description": "Passport-wechat for public account  of loopback",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/wenwei1202/passport-wechat-public/issues"
   },
-  "homepage": "https://github.com/wenwei1202/passport-wechat-public#readme"
+  "homepage": "https://github.com/wenwei1202/passport-wechat-public#readme",
+  "dependencies": {
+    "passport-strategy": "^1.0.0",
+    "wechat-oauth": "^1.1.0"
+  }
 }
