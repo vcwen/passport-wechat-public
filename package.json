@@ -1,0 +1,24 @@
+{
+  "name": "passport-wechat-public",
+  "version": "0.0.1",
+  "description": "Passport-wechat for public account  of loopback",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenwei1202/passport-wechat-public.git"
+  },
+  "keywords": [
+    "passport",
+    "wechat",
+    "public"
+  ],
+  "author": "vincent.wen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wenwei1202/passport-wechat-public/issues"
+  },
+  "homepage": "https://github.com/wenwei1202/passport-wechat-public#readme"
+}
