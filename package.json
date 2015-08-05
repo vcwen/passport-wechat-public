@@ -1,6 +1,6 @@
 {
   "name": "passport-wechat-public",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "description": "Passport-wechat for public account  of loopback",
   "main": "index.js",
   "scripts": {
