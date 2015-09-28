@@ -1,10 +1,10 @@
 {
   "name": "passport-wechat-public",
-  "version": "0.0.31",
+  "version": "0.1.0",
   "description": "Passport-wechat for public account  of loopback",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
