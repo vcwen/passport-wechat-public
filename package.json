@@ -1,10 +1,10 @@
 {
   "name": "passport-wechat-public",
-  "version": "0.1.1",
-  "description": "Passport-wechat for public account  of loopback",
+  "version": "0.1.2",
+  "description": "Passport-wechat for official account",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "node_modules/.bin/mocha --reporter spec test/*.test.j"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,8 @@
   "homepage": "https://github.com/wenwei1202/passport-wechat-public#readme",
   "dependencies": {
     "passport-strategy": "^1.0.0",
-    "wechat-oauth": "^1.1.0"
+    "wechat-oauth": "^1.1.0",
+    "winston": "^1.0.2"
   },
   "devDependencies": {
     "chai": "^3.3.0",
