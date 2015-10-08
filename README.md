@@ -12,7 +12,7 @@ unobtrusively integrated into any application or framework that supports
 
 Passport的微信公众号OAuth2.0用户验证模块(网页登录可以支持，但是没有测试过，因为没有相应的网站应用，微信也没有给相应的可以测试的测试号。但是功能比较一致，只是改变了authURL，所以加了，正式使用的话慎重测试)。
 
-另外之前看到Langyali的[passport-wechat](https://github.com/liangyali/passport-wechat)，但是不符合需求，不支持loopback-compoment-passport,而且当时很久没更新，现在已经更新v2.0.
+另外之前看到Langyali的[passport-wechat](https://github.com/liangyali/passport-wechat)，但是不符自己合需求，不支持loopback-compoment-passport,而且当时很久没更新，所以自己写了，现在Passport-wechat已经更新v2.0，若需要可以参考.
 
 ## Install
 
