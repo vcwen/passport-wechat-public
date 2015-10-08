@@ -1,6 +1,6 @@
 {
   "name": "passport-wechat-public",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Passport-wechat for public account  of loopback",
   "main": "index.js",
   "scripts": {
@@ -24,5 +24,10 @@
   "dependencies": {
     "passport-strategy": "^1.0.0",
     "wechat-oauth": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "chai-passport-strategy": "^0.2.0",
+    "mocha": "^2.3.3"
   }
 }

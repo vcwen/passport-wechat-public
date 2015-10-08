@@ -1,7 +1,7 @@
 /**
  * Module dependencies.
  */
-var Strategy = require('./lib/oauth-strategy');
+var Strategy = require('./lib/strategy');
 
 
 /**
