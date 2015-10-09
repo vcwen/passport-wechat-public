@@ -2,6 +2,8 @@
 [Passport](http://passportjs.org/) strategy for authenticating with [Wechat Official Accounts](https://mp.weixin.qq.com/)
 using the OAuth 2.0 API.**NOTICE:Website login is also enabled but not tested yet.**
 
+Wechat Enterprise Accounts version, see [passport-wechat-enterprise](https://github.com/wenwei1202/passport-wechat-enterprise)
+
 Wechat Documents: [Official Accounts](http://mp.weixin.qq.com/wiki/17/c0f37d5704f0b64713d5d2c37b468d75.html), [Website login](https://open.weixin.qq.com/cgi-bin/showdocument?action=dir_list&t=resource/res_list&verify=1&id=open1419316505&token=&lang=zh_CN)
 
 This module lets you authenticate using Wechat in your Node.js applications.
@@ -10,9 +12,11 @@ unobtrusively integrated into any application or framework that supports
 [Connect](http://www.senchalabs.org/connect/)-style middleware, including
 [Express](http://expressjs.com/). It also supports [Loopback-Component-Passport](https://github.com/strongloop/loopback-component-passport).
 
-Passport的微信公众号OAuth2.0用户验证模块(网页登录可以支持，但是没有测试过，因为没有相应的网站应用，微信也没有给相应的可以测试的测试号。但是功能比较一致，只是改变了authURL，所以加了，正式使用的话慎重测试)。
+Passport的微信公众号OAuth2.0用户验证模块(网页登录可以支持，但是没有测试过，因为没有相应的网站应用，微信也没有给相应的可以测试的测试号。但是功能比较一致，只是改变了authURL，所以加了，正式使用的话慎重测试)。支持的框架有Express,Strongloop/Loopback,支持Loopback-Component-Passport.
 
-另外之前看到Langyali的[passport-wechat](https://github.com/liangyali/passport-wechat)，但是不符合需求，不支持loopback-compoment-passport,而且当时很久没更新，现在已经更新v2.0.
+微信企业号, 转至[passport-wechat-enterprise](https://github.com/wenwei1202/passport-wechat-enterprise)
+
+另外之前看到Langyali的[passport-wechat](https://github.com/liangyali/passport-wechat)，当时以为不支持loopback-compoment-passport,而且当时很久没更新，所以自己写了，后来发现是我弄错了，其实是支持的，现在Passport-wechat已经更新v2.0，若需要可以参考.
 
 ## Install
 
