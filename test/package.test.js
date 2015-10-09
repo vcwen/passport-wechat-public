@@ -1,7 +1,7 @@
 var expect = require('chai').expect
 var strategy = require('..');
 
-describe('passport-facebook', function() {
+describe('passport-wechat-public', function() {
 
   it('should export Strategy constructor directly from package', function() {
     expect(strategy).to.be.a('function');
