@@ -1,7 +1,7 @@
 {
   "name": "passport-wechat-public",
-  "version": "0.1.3",
-  "description": "Passport-wechat for official account",
+  "version": "0.1.4",
+  "description": "Passport Wechat Strategy for Official account/微信公众号",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha --reporter spec test/*.test.js"
