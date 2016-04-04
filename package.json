@@ -4,7 +4,7 @@
   "description": "Passport Wechat Strategy for Official account/微信公众号",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec test/*.test.js"
+    "test": "node_modules/.bin/mocha -R spec"
   },
   "repository": {
     "type": "git",
