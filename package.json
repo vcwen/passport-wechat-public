@@ -25,8 +25,7 @@
   "dependencies": {
     "debug": "^2.2.0",
     "passport-strategy": "^1.0.0",
-    "wechat-oauth": "^1.1.0",
-    "winston": "^1.0.2"
+    "wechat-oauth": "^1.1.0"
   },
   "devDependencies": {
     "chai": "^3.3.0",
