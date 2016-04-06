@@ -1,6 +1,6 @@
 {
   "name": "passport-wechat-public",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Passport Wechat Strategy for Official account/微信公众号",
   "main": "index.js",
   "scripts": {

@@ -8,6 +8,9 @@
 [Passport](http://passportjs.org/) strategy for authenticating with [Wechat Official Accounts](https://mp.weixin.qq.com/)
 
 
+[Documents (English)](https://github.com/wenwei1202/passport-wechat-public/blob/master/README.en.md)
+
+
 
 Passport的微信公众号OAuth2.0用户验证模块。支持的框架有Express,Strongloop/Loopback,支持Loopback-Component-Passport.
 (网页登录可以支持，但是没有测试过，因为没有相应的网站应用，微信也没有给相应的可以测试的测试号。但是功能比较一致，只是改变了authURL，所以加了，正式使用的话慎重测试)
