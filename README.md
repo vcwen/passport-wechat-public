@@ -17,8 +17,6 @@ Passport的微信公众号OAuth2.0用户验证模块。支持的框架有Express
 
 微信企业号, 转至[passport-wechat-enterprise](https://github.com/wenwei1202/passport-wechat-enterprise)
 
-另外之前看到Langyali的[passport-wechat](https://github.com/liangyali/passport-wechat)，当时以为不支持loopback-compoment-passport,而且当时很久没更新，所以自己写了，后来发现是我弄错了，其实是支持的，现在Passport-wechat已经更新v2.0，若需要可以参考.
-
 ## Install
 
     $ npm install passport-wechat-public
