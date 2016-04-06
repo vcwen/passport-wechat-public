@@ -102,8 +102,8 @@ for (var s in config) {
     var c = config[s];
     c.session = c.session !== false;
     if(s === 'wechat') {
-      c.getAccessToken = getAccessToken;
-      c.saveAccessToken = saveAccessToken;
+      c.getToken = getAccessToken;
+      c.saveToken = saveAccessToken;
     }
     passportConfigurator.configureProvider(s, c);
   }

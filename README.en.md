@@ -6,7 +6,9 @@
 
 # passport-wechat-public
 [Passport](http://passportjs.org/) strategy for authenticating with [Wechat Official Accounts](https://mp.weixin.qq.com/)
-using the OAuth 2.0 API.**NOTICE:Website login is also enabled but not tested yet.**
+using the OAuth 2.0 API.
+
+[中文文档](https://github.com/wenwei1202/passport-wechat-public/blob/master/README.md)
 
 Wechat Enterprise Accounts version, see [passport-wechat-enterprise](https://github.com/wenwei1202/passport-wechat-enterprise)
 
@@ -107,8 +109,8 @@ for (var s in config) {
     var c = config[s];
     c.session = c.session !== false;
     if(s === 'wechat') {
-      c.getAccessToken = getAccessToken;
-      c.saveAccessToken = saveAccessToken;
+      c.getToken = getAccessToken;
+      c.saveToken = saveAccessToken;
     }
     passportConfigurator.configureProvider(s, c);
   }
