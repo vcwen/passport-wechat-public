@@ -11,20 +11,16 @@
 
 # For a list of all available engines, see here:
 # http://docs.codeclimate.com/article/296-engines-available-engines
-
 engines:
-# to turn on an engine, add it here and set enabled to `true`
-# to turn off an engine, set enabled to `false` or remove it
-  rubocop:
-    enabled: true
-  golint:
-    enabled: true
-  gofmt:
-    enabled: true
   eslint:
     enabled: true
-  csslint:
+  duplication:
     enabled: true
+    config:
+      languages:
+      - javascript
+
+
 
 # Engines can analyze files and report issues on them, but you can separately
 # decide which files will receive ratings based on those issues. This is
@@ -35,16 +31,14 @@ engines:
 
 # Note: If the ratings key is not specified, this will result in a 0.0 GPA on your dashboard.
 
-# ratings:
-#   paths:
-#   - app/**
-#   - lib/**
-#   - "**.rb"
-#   - "**.go"
+ratings:
+  paths:
+  - "**.js"
+
 
 # You can globally exclude files from being analyzed by any engine using the
 # exclude_paths key.
 
-#exclude_paths:
-#- spec/**/*
+exclude_paths:
+- node_modules/**/*
 #- vendor/**/*

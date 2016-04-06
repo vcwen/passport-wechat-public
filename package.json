@@ -4,7 +4,8 @@
   "description": "Passport Wechat Strategy for Official account/微信公众号",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha -R spec"
+    "test": "istanbul cover _mocha --report lcovonly  -- -R spec",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -24,12 +25,14 @@
   "dependencies": {
     "debug": "^2.2.0",
     "passport-strategy": "^1.0.0",
-    "wechat-oauth": "^1.1.0",
-    "winston": "^1.0.2"
+    "wechat-oauth": "^1.1.0"
   },
   "devDependencies": {
     "chai": "^3.3.0",
-    "chai-passport-strategy": "^0.2.0",
-    "mocha": "^2.3.3"
+    "chai-passport-strategy": "^1.0.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.3",
+    "mocha-lcov-reporter": "^1.2.0"
   }
 }
