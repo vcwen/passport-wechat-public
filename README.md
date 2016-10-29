@@ -87,6 +87,7 @@ app.get('/auth/wechat/callback',
     "failureRedirect": "/auth/wechat/failure",
     "scope": ["snsapi_userinfo"],
     "appId": "wxabe757c89bb6d74b",
+    "authScheme": "oauth",
     "appSecret": "9a62bc24a31d5c7c2b1d053515d276f8"
   }
 }
