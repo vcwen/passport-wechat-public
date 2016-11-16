@@ -45,7 +45,7 @@ describe('Strategy', function() {
     })
 
     it('should be redirected', function() {
-      expect(url).to.equal('https://open.weixin.qq.com/connect/oauth2/authorize?appid=ABC123&redirect_uri=&response_type=code&scope=snsapi_login&state=state#wechat_redirect')
+      expect(url).to.equal('https://open.weixin.qq.com/connect/qrconnect?appid=ABC123&redirect_uri=&response_type=code&scope=snsapi_login&state=state#wechat_redirect')
     })
   })
 
