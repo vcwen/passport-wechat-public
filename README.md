@@ -1,8 +1,8 @@
 [![npm version](https://badge.fury.io/js/passport-wechat-public.svg)](https://badge.fury.io/js/passport-wechat-public)
-[![Dependencies Status](https://david-dm.org/wenwei1202/passport-wechat-public.svg)](https://david-dm.org/wenwei1202/passport-wechat-public)
-[![Build Status](https://travis-ci.org/wenwei1202/passport-wechat-public.svg?branch=master)](https://travis-ci.org/wenwei1202/passport-wechat-public)
-[![Coverage Status](https://coveralls.io/repos/github/wenwei1202/passport-wechat-public/badge.svg?branch=master)](https://coveralls.io/github/wenwei1202/passport-wechat-public?branch=master)
-[![Code Climate](https://codeclimate.com/github/wenwei1202/passport-wechat-public/badges/gpa.svg)](https://codeclimate.com/github/wenwei1202/passport-wechat-public)
+[![Dependencies Status](https://david-dm.org/vcwen/passport-wechat-public.svg)](https://david-dm.org/vcwen/passport-wechat-public)
+[![Build Status](https://travis-ci.org/vcwen/passport-wechat-public.svg?branch=master)](https://travis-ci.org/vcwen/passport-wechat-public)
+[![Coverage Status](https://coveralls.io/repos/github/vcwen/passport-wechat-public/badge.svg?branch=master)](https://coveralls.io/github/vcwen/passport-wechat-public?branch=master)
+[![Code Climate](https://codeclimate.com/github/vcwen/passport-wechat-public/badges/gpa.svg)](https://codeclimate.com/github/vcwen/passport-wechat-public)
 
 # passport-wechat-public
 [Passport](http://passportjs.org/) strategy for authenticating with [Wechat Official Accounts](https://mp.weixin.qq.com/)
